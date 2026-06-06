@@ -118,12 +118,7 @@ Contributions are welcome. Please ensure that the automated pipelines pass and t
 ### Recent Automated Updates (Fallback)
 
 The AI documentation agent detected changes in the following files:
-- `.github/dependabot.yml`
 - `.github/workflows/ci-cd.yml`
 - `.github/workflows/self-maintaining.yml`
-- `README.md`
-- `scripts/ai_doc_agent.py`
-- `scripts/generate_diagrams.py`
-- `scripts/repo_analyzer.py`
 
 <!-- CHANGELOG_END -->
