@@ -51,5 +51,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "docs: auto-update repository documentation and diagrams"
-            git push
+            git push origin HEAD:${{ github.head_ref || github.ref_name }}
           fi
