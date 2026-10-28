@@ -30,11 +30,11 @@ Welcome to the Repository Automation System. This project demonstrates a self-ma
 ## Repository Structure
 <!-- REPO_STRUCTURE_START -->
 - **./**
-    - TASK_3.ipynb
-    - student_feedback_with_comments.csv
     - student_feedback.csv
     - TASK_3.pdf
+    - student_feedback_with_comments.csv
     - README.md
+    - TASK_3.ipynb
     - student_feedback_with_sentiment.csv
     - **scripts/**
         - ai_doc_agent.py
@@ -49,9 +49,9 @@ graph TD
     node0["root"]:::folder
     node1["scripts/"]:::folder
     node0 --> node1
-    node2["student_feedback_with_comments.csv"]
+    node2["student_feedback.csv"]
     node0 --> node2
-    node3["student_feedback.csv"]
+    node3["student_feedback_with_comments.csv"]
     node0 --> node3
     node4["README.md"]
     node0 --> node4
@@ -65,8 +65,8 @@ graph TD
     node1 --> node8
     classDef folder fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
     click node1 "scripts" "View scripts"
-    click node2 "student_feedback_with_comments.csv" "View student_feedback_with_comments.csv"
-    click node3 "student_feedback.csv" "View student_feedback.csv"
+    click node2 "student_feedback.csv" "View student_feedback.csv"
+    click node3 "student_feedback_with_comments.csv" "View student_feedback_with_comments.csv"
     click node4 "README.md" "View README.md"
     click node5 "student_feedback_with_sentiment.csv" "View student_feedback_with_sentiment.csv"
     click node6 "scripts/ai_doc_agent.py" "View ai_doc_agent.py"
